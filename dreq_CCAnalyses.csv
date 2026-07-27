@@ -1,0 +1,548 @@
+i,out_name,frequency,units,long_name,standard_name,cell_methods,priority,comment,CDX-CORE SI,urban,heatstress,xtrprecip,xtrtemp,compound,extrcyclones,tropcyclones,mountains,drought,uncertainty,fire,energy,n_analyses,n_opt
+1,tas,mon,K,Near-Surface Air Temperature,air_temperature,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+2,tas,day,K,Near-Surface Air Temperature,air_temperature,area: time: mean,CORE,,,,,,1,,,,,,,,,1,0
+3,tas,1hr,K,Near-Surface Air Temperature,air_temperature,area: mean time: point,CORE,,1,,1,,1,1,,,,,2,1,1,7,1
+4,tasmax,mon,K,Daily Maximum Near-Surface Air Temperature,air_temperature,area: mean time: maximum within days time: mean over days,CORE,maximum from all integrated time steps per day,,,,,,,,,,,,,,0,0
+5,tasmax,day,K,Daily Maximum Near-Surface Air Temperature,air_temperature,area: mean time: maximum,CORE,maximum from all integrated time steps per day,1,,,,1,,,,,,1,,1,4,0
+6,tasmin,mon,K,Daily Minimum Near-Surface Air Temperature,air_temperature,area: mean time: minimum within days time: mean over days,CORE,minimum from all integrated time steps per day,,,,,,,,,,,,,,0,0
+7,tasmin,day,K,Daily Minimum Near-Surface Air Temperature,air_temperature,area: mean time: minimum,CORE,minimum from all integrated time steps per day,1,,,,1,,,,,,1,,,3,0
+8,pr,mon,kg m-2 s-1,Precipitation,precipitation_flux,area: time: mean,CORE,,,,,1,,,,,,,,,,1,0
+9,pr,day,kg m-2 s-1,Precipitation,precipitation_flux,area: time: mean,CORE,,,,,1,,,,,,,1,,1,3,0
+10,pr,1hr,kg m-2 s-1,Precipitation,precipitation_flux,area: time: mean,CORE,,1,,,1,,1,1,1,,,2,1,1,8,1
+11,evspsbl,mon,kg m-2 s-1,Evaporation Including Sublimation and Transpiration,water_evapotranspiration_flux,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+12,evspsbl,day,kg m-2 s-1,Evaporation Including Sublimation and Transpiration,water_evapotranspiration_flux,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+13,evspsbl,1hr,kg m-2 s-1,Evaporation Including Sublimation and Transpiration,water_evapotranspiration_flux,area: time: mean,CORE,,,,,,,,,,,,,,1,1,0
+14,huss,mon,1,Near-Surface Specific Humidity,specific_humidity,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+15,huss,day,1,Near-Surface Specific Humidity,specific_humidity,area: time: mean,CORE,,,,,,1,,,,,,,,,1,0
+16,huss,1hr,1,Near-Surface Specific Humidity,specific_humidity,area: mean time: point,CORE,,,,,,1,1,,,,,,,1,3,0
+17,hurs,mon,%,Near-Surface Relative Humidity,relative_humidity,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+18,hurs,day,%,Near-Surface Relative Humidity,relative_humidity,area: time: mean,CORE,,,,,,1,,,,,,,,,1,0
+19,hurs,1hr,%,Near-Surface Relative Humidity,relative_humidity,area: mean time: point,CORE,,,,1,,1,,,1,,,,1,,4,0
+20,ps,mon,Pa,Surface Air Pressure,surface_air_pressure,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+21,ps,day,Pa,Surface Air Pressure,surface_air_pressure,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+22,ps,1hr,Pa,Surface Air Pressure,surface_air_pressure,area: mean time: point,CORE,,,,1,,,,,,,,,,1,2,0
+23,psl,mon,Pa,Sea Level Pressure,air_pressure_at_mean_sea_level,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+24,psl,day,Pa,Sea Level Pressure,air_pressure_at_mean_sea_level,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+25,psl,1hr,Pa,Sea Level Pressure,air_pressure_at_mean_sea_level,area: mean time: point,CORE,,,,,,1,,1,1,,,,,1,4,0
+26,sfcWind,mon,m s-1,Near-Surface Wind Speed,wind_speed,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+27,sfcWind,day,m s-1,Near-Surface Wind Speed,wind_speed,area: time: mean,CORE,,,,,,,,,,,,,,1,1,0
+28,sfcWind,1hr,m s-1,Near-Surface Wind Speed,wind_speed,area: mean time: point,CORE,,,,1,,,1,,1,,,,1,1,5,0
+29,uas,mon,m s-1,Eastward Near-Surface Wind,eastward_wind,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+30,uas,day,m s-1,Eastward Near-Surface Wind,eastward_wind,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+31,uas,1hr,m s-1,Eastward Near-Surface Wind,eastward_wind,area: mean time: point,CORE,,,,,,1,,1,1,,,,2,1,5,1
+32,vas,mon,m s-1,Northward Near-Surface Wind,northward_wind,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+33,vas,day,m s-1,Northward Near-Surface Wind,northward_wind,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+34,vas,1hr,m s-1,Northward Near-Surface Wind,northward_wind,area: mean time: point,CORE,,,,,,,,1,1,,,,2,1,4,1
+35,clt,mon,%,Total Cloud Cover Percentage,cloud_area_fraction,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+36,clt,day,%,Total Cloud Cover Percentage,cloud_area_fraction,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+37,clt,1hr,%,Total Cloud Cover Percentage,cloud_area_fraction,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+38,rsds,mon,W m-2,Surface Downwelling Shortwave Radiation,surface_downwelling_shortwave_flux_in_air,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+39,rsds,day,W m-2,Surface Downwelling Shortwave Radiation,surface_downwelling_shortwave_flux_in_air,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+40,rsds,1hr,W m-2,Surface Downwelling Shortwave Radiation,surface_downwelling_shortwave_flux_in_air,area: time: mean,CORE,,,,1,,,,,,,,,,,1,0
+41,rlds,mon,W m-2,Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+42,rlds,day,W m-2,Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+43,rlds,1hr,W m-2,Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,area: time: mean,CORE,,,,1,,,,,,,,,,1,2,0
+44,orog,fx,m,Surface Altitude,surface_altitude,area: mean,CORE,,1,1,1,,,1,1,1,,,1,,1,8,0
+45,sftlf,fx,%,Percentage of the Grid Cell Occupied by Land,land_area_fraction,area: mean,CORE,,1,1,1,,,1,,,,,1,1,1,7,0
+46,ts,mon,K,Surface Temperature,surface_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+47,ts,day,K,Surface Temperature,surface_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+48,ts,1hr,K,Surface Temperature,surface_temperature,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+49,tsl,mon,K,Temperature of Soil,soil_temperature,area: mean where land time: mean,TIER1,Temperature of each soil layer (3D variable). Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
+50,tsl,day,K,Temperature of Soil,soil_temperature,area: mean where land time: mean,TIER1,Temperature of each soil layer (3D variable). Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
+51,tsl,6hr,K,Temperature of Soil,soil_temperature,area: mean where land time: point,TIER1,Temperature of each soil layer (3D variable). Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
+52,prc,mon,kg m-2 s-1,Convective Precipitation,convective_precipitation_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+53,prc,day,kg m-2 s-1,Convective Precipitation,convective_precipitation_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+54,prc,1hr,kg m-2 s-1,Convective Precipitation,convective_precipitation_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+55,prhmax,day,kg m-2 s-1,Daily Maximum Hourly Precipitation Rate,precipitation_flux,area: mean time: mean within hours time: maximum over hours,TIER1,Defined as maximum of the precipitation rate averaged over the whole hour.,,,,,,,,,,,,,,0,0
+56,prsn,mon,kg m-2 s-1,Snowfall Flux,snowfall_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+57,prsn,day,kg m-2 s-1,Snowfall Flux,snowfall_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+58,prsn,1hr,kg m-2 s-1,Snowfall Flux,snowfall_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+59,mrros,mon,kg m-2 s-1,Surface Runoff,surface_runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+60,mrros,day,kg m-2 s-1,Surface Runoff,surface_runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+61,mrros,6hr,kg m-2 s-1,Surface Runoff,surface_runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,1,1,0
+62,mrro,mon,kg m-2 s-1,Total Runoff,runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+63,mrro,day,kg m-2 s-1,Total Runoff,runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,1,1,0
+64,mrro,6hr,kg m-2 s-1,Total Runoff,runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,1,1,0
+65,snm,mon,kg m-2 s-1,Surface Snow Melt,surface_snow_melt_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+66,snm,day,kg m-2 s-1,Surface Snow Melt,surface_snow_melt_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+67,snm,6hr,kg m-2 s-1,Surface Snow Melt,surface_snow_melt_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+68,tauu,mon,Pa,Surface Downward Eastward Wind Stress,surface_downward_eastward_stress,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+69,tauu,day,Pa,Surface Downward Eastward Wind Stress,surface_downward_eastward_stress,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+70,tauu,1hr,Pa,Surface Downward Eastward Wind Stress,surface_downward_eastward_stress,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+71,tauv,mon,Pa,Surface Downward Northward Wind Stress,surface_downward_northward_stress,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+72,tauv,day,Pa,Surface Downward Northward Wind Stress,surface_downward_northward_stress,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+73,tauv,1hr,Pa,Surface Downward Northward Wind Stress,surface_downward_northward_stress,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+74,sfcWindmax,mon,m s-1,Daily Maximum Near-Surface Wind Speed,wind_speed,area: mean time: maximum within days time: mean over days,TIER1,Maximum from all integrated time steps per day,,,,,,,,,,,,,,0,0
+75,sfcWindmax,day,m s-1,Daily Maximum Near-Surface Wind Speed,wind_speed,area: mean time: maximum,TIER1,Maximum from all integrated time steps per day,,,,,,,,,,,,,,0,0
+76,sund,mon,s,Daily Duration of Sunshine,duration_of_sunshine,time: sum within days time: mean over days,TIER1,"The WMO definition of sunshine is that the surface incident radiative flux from the solar beam (i.e. excluding diffuse skylight) exceeds 120 W m-2. ""Duration"" is the length of time for which a condition holds.",,,,,,,,,,,,,,0,0
+77,sund,day,s,Daily Duration of Sunshine,duration_of_sunshine,time: sum,TIER1,"The WMO definition of sunshine is that the surface incident radiative flux from the solar beam (i.e. excluding diffuse skylight) exceeds 120 W m-2. ""Duration"" is the length of time for which a condition holds.",,,,,,,,,,,,,1,1,0
+78,rsdsdir,mon,W m-2,Surface Direct Downwelling Shortwave Radiation,surface_direct_downwelling_shortwave_flux_in_air,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+79,rsdsdir,day,W m-2,Surface Direct Downwelling Shortwave Radiation,surface_direct_downwelling_shortwave_flux_in_air,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+80,rsdsdir,1hr,W m-2,Surface Direct Downwelling Shortwave Radiation,surface_direct_downwelling_shortwave_flux_in_air,area: time: mean,TIER1,,,,,,,,,,,,,,1,1,0
+81,rsus,mon,W m-2,Surface Upwelling Shortwave Radiation,surface_upwelling_shortwave_flux_in_air,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+82,rsus,day,W m-2,Surface Upwelling Shortwave Radiation,surface_upwelling_shortwave_flux_in_air,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+83,rsus,1hr,W m-2,Surface Upwelling Shortwave Radiation,surface_upwelling_shortwave_flux_in_air,area: time: mean,TIER1,,,,1,,,,,,,,,,,1,0
+84,rlus,mon,W m-2,Surface Upwelling Longwave Radiation,surface_upwelling_longwave_flux_in_air,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+85,rlus,day,W m-2,Surface Upwelling Longwave Radiation,surface_upwelling_longwave_flux_in_air,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+86,rlus,1hr,W m-2,Surface Upwelling Longwave Radiation,surface_upwelling_longwave_flux_in_air,area: time: mean,TIER1,,,,1,,,,,,,,,,,1,0
+87,rlut,mon,W m-2,TOA Outgoing Longwave Radiation,toa_outgoing_longwave_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+88,rlut,day,W m-2,TOA Outgoing Longwave Radiation,toa_outgoing_longwave_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+89,rlut,1hr,W m-2,TOA Outgoing Longwave Radiation,toa_outgoing_longwave_flux,area: time: mean,TIER1,,,,,,,,,1,,,,,,1,0
+90,rsdt,mon,W m-2,TOA Incident Shortwave Radiation,toa_incoming_shortwave_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+91,rsdt,day,W m-2,TOA Incident Shortwave Radiation,toa_incoming_shortwave_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+92,rsdt,1hr,W m-2,TOA Incident Shortwave Radiation,toa_incoming_shortwave_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+93,rsut,mon,W m-2,TOA Outgoing Shortwave Radiation,toa_outgoing_shortwave_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+94,rsut,day,W m-2,TOA Outgoing Shortwave Radiation,toa_outgoing_shortwave_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+95,rsut,1hr,W m-2,TOA Outgoing Shortwave Radiation,toa_outgoing_shortwave_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+96,hfls,mon,W m-2,Surface Upward Latent Heat Flux,surface_upward_latent_heat_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+97,hfls,day,W m-2,Surface Upward Latent Heat Flux,surface_upward_latent_heat_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+98,hfls,1hr,W m-2,Surface Upward Latent Heat Flux,surface_upward_latent_heat_flux,area: time: mean,TIER1,,,,,,,,,1,,,,,,1,0
+99,hfss,mon,W m-2,Surface Upward Sensible Heat Flux,surface_upward_sensible_heat_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+100,hfss,day,W m-2,Surface Upward Sensible Heat Flux,surface_upward_sensible_heat_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+101,hfss,1hr,W m-2,Surface Upward Sensible Heat Flux,surface_upward_sensible_heat_flux,area: time: mean,TIER1,,,,,,,,,1,,,,,,1,0
+102,mrfso,mon,kg m-2,Soil Frozen Water Content,soil_frozen_water_content,area: mean where land time: mean,TIER1,"The mass of frozen water per unit area, summed over all soil layers. Reported as missing for grid cells with no land.",,,,,,,,,,,,,,0,0
+103,mrfso,day,kg m-2,Soil Frozen Water Content,soil_frozen_water_content,area: mean where land time: mean,TIER1,"The mass of frozen water per unit area, summed over all soil layers. Reported as missing for grid cells with no land.",,,,,,,,,,,,,,0,0
+104,mrfso,6hr,kg m-2,Soil Frozen Water Content,soil_frozen_water_content,area: mean where land time: point,TIER1,"The mass of frozen water per unit area, summed over all soil layers. Reported as missing for grid cells with no land.",,,,,,,,,,,,,,0,0
+105,mrfsos,mon,kg m-2,Frozen Water Content in Upper Portion of Soil Column,frozen_water_content_of_soil_layer,area: mean where land time: mean,TIER1,The mass of frosen water in the upper 10cm of the soil layer. Reported as missing for grid cells with no land. (not in CMIP),,,,,,,,,,,,,,0,0
+106,mrfsos,day,kg m-2,Frozen Water Content in Upper Portion of Soil Column,frozen_water_content_of_soil_layer,area: mean where land time: mean,TIER1,The mass of frosen water in the upper 10cm of the soil layer. Reported as missing for grid cells with no land. (not in CMIP),,,,,,,,,,,,,,0,0
+107,mrfsos,1hr,kg m-2,Frozen Water Content in Upper Portion of Soil Column,frozen_water_content_of_soil_layer,area: mean where land time: point,TIER1,The mass of frosen water in the upper 10cm of the soil layer. Reported as missing for grid cells with no land. (not in CMIP),,,,,,,,,,,,,,0,0
+108,mrsfl,mon,kg m-2,Frozen Water Content of Soil Layer,frozen_water_content_of_soil_layer,area: mean where land time: mean,TIER1,"The mass of frosen water in each soil layer (3D variable). Reported as missing for grid cells with no land. (not in CMIP) [mrfsol -> mrsfl, 2022.09.22, https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 ]",,,,,,,,,,,,,,0,0
+109,mrsfl,day,kg m-2,Frozen Water Content of Soil Layer,frozen_water_content_of_soil_layer,area: mean where land time: mean,TIER1,"The mass of frosen water in each soil layer (3D variable). Reported as missing for grid cells with no land. (not in CMIP) [mrfsol -> mrsfl, 2022.09.22, https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 ]",,,,,,,,,,,,,,0,0
+110,mrsfl,6hr,kg m-2,Frozen Water Content of Soil Layer,frozen_water_content_of_soil_layer,area: mean where land time: point,TIER1,"The mass of frosen water in each soil layer (3D variable). Reported as missing for grid cells with no land. (not in CMIP) [mrfsol -> mrsfl, 2022.09.22, https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 ]",,,,,,,,,,,,,,0,0
+111,mrso,mon,kg m-2,Total Soil Moisture Content,mass_content_of_water_in_soil,area: mean where land time: mean,TIER1,"The mass of water in all phases per unit area, summed over all soil layers.",,,,,,,,,,,,,,0,0
+112,mrso,day,kg m-2,Total Soil Moisture Content,mass_content_of_water_in_soil,area: mean where land time: mean,TIER1,"The mass of water in all phases per unit area, summed over all soil layers.",,,,,,,,,,,,,,0,0
+113,mrso,6hr,kg m-2,Total Soil Moisture Content,mass_content_of_water_in_soil,area: mean where land time: point,TIER1,"The mass of water in all phases per unit area, summed over all soil layers.",,,,,,,,,,,,,,0,0
+114,mrsos,mon,kg m-2,Moisture in Upper Portion of Soil Column,mass_content_of_water_in_soil_layer,area: mean where land time: mean,TIER1,The mass of water in all phases in the upper 10cm of the soil layer. Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
+115,mrsos,day,kg m-2,Moisture in Upper Portion of Soil Column,mass_content_of_water_in_soil_layer,area: mean where land time: mean,TIER1,The mass of water in all phases in the upper 10cm of the soil layer. Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
+116,mrsos,1hr,kg m-2,Moisture in Upper Portion of Soil Column,mass_content_of_water_in_soil_layer,area: mean where land time: point,TIER1,The mass of water in all phases in the upper 10cm of the soil layer. Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
+117,mrsol,mon,kg m-2,Total Water Content of Soil Layer,mass_content_of_water_in_soil_layer,area: mean where land time: mean,TIER1,The mass of water in all phases in each soil layer (3D variable). Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
+118,mrsol,day,kg m-2,Total Water Content of Soil Layer,mass_content_of_water_in_soil_layer,area: mean where land time: mean,TIER1,The mass of water in all phases in each soil layer (3D variable). Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
+119,mrsol,6hr,kg m-2,Total Water Content of Soil Layer,mass_content_of_water_in_soil_layer,area: mean where land time: point,TIER1,The mass of water in all phases in each soil layer (3D variable). Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
+120,snw,mon,kg m-2,Surface Snow Amount,surface_snow_amount,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+121,snw,day,kg m-2,Surface Snow Amount,surface_snow_amount,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+122,snw,6hr,kg m-2,Surface Snow Amount,surface_snow_amount,area: mean where land time: point,TIER1,,,,,,,,,,,,,,1,1,0
+123,snc,mon,%,Snow Area Percentage,surface_snow_area_fraction,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+124,snc,day,%,Snow Area Percentage,surface_snow_area_fraction,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+125,snc,6hr,%,Snow Area Percentage,surface_snow_area_fraction,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+126,snd,mon,m,Snow Depth,surface_snow_thickness,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+127,snd,day,m,Snow Depth,surface_snow_thickness,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+128,snd,6hr,m,Snow Depth,surface_snow_thickness,area: mean where land time: point,TIER1,,,,,,,,,,,,,,,0,0
+129,siconca,mon,%,Sea-Ice Area Percentage (Atmospheric Grid),sea_ice_area_fraction,area: time: mean,TIER1,daily and monthly means,,,,,,,,,,,,,,0,0
+130,siconca,day,%,Sea-Ice Area Percentage (Atmospheric Grid),sea_ice_area_fraction,area: time: mean,TIER1,daily and monthly means,,,,,,,,,,,,,,0,0
+131,zmla,mon,m,Height of Boundary Layer,atmosphere_boundary_layer_thickness,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+132,zmla,day,m,Height of Boundary Layer,atmosphere_boundary_layer_thickness,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+133,zmla,1hr,m,Height of Boundary Layer,atmosphere_boundary_layer_thickness,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+134,prw,mon,kg m-2,Water Vapor Path,atmosphere_mass_content_of_water_vapor,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+135,prw,day,kg m-2,Water Vapor Path,atmosphere_mass_content_of_water_vapor,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+136,prw,1hr,kg m-2,Water Vapor Path,atmosphere_mass_content_of_water_vapor,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+137,clwvi,mon,kg m-2,Condensed Water Path,atmosphere_mass_content_of_cloud_condensed_water,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+138,clwvi,day,kg m-2,Condensed Water Path,atmosphere_mass_content_of_cloud_condensed_water,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+139,clwvi,1hr,kg m-2,Condensed Water Path,atmosphere_mass_content_of_cloud_condensed_water,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+140,clivi,mon,kg m-2,Ice Water Path,atmosphere_mass_content_of_cloud_ice,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+141,clivi,day,kg m-2,Ice Water Path,atmosphere_mass_content_of_cloud_ice,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+142,clivi,1hr,kg m-2,Ice Water Path,atmosphere_mass_content_of_cloud_ice,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+143,ua1000,mon,m s-1,Eastward Wind at 1000hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+144,ua1000,day,m s-1,Eastward Wind at 1000hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+145,ua1000,6hr,m s-1,Eastward Wind at 1000hPa,eastward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+146,ua925,mon,m s-1,Eastward Wind at 925hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+147,ua925,day,m s-1,Eastward Wind at 925hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+148,ua925,6hr,m s-1,Eastward Wind at 925hPa,eastward_wind,area: mean time: point,TIER1,,,,,,,,1,1,,,,,,2,0
+149,ua850,mon,m s-1,Eastward Wind at 850hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+150,ua850,day,m s-1,Eastward Wind at 850hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+151,ua850,6hr,m s-1,Eastward Wind at 850hPa,eastward_wind,area: mean time: point,TIER1,,,,,,,,1,1,,,,,,2,0
+152,ua700,mon,m s-1,Eastward Wind at 700hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+153,ua700,day,m s-1,Eastward Wind at 700hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+154,ua700,6hr,m s-1,Eastward Wind at 700hPa,eastward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+155,ua600,mon,m s-1,Eastward Wind at 600hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+156,ua600,day,m s-1,Eastward Wind at 600hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+157,ua600,6hr,m s-1,Eastward Wind at 600hPa,eastward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+158,ua500,mon,m s-1,Eastward Wind at 500hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+159,ua500,day,m s-1,Eastward Wind at 500hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+160,ua500,6hr,m s-1,Eastward Wind at 500hPa,eastward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+161,ua400,mon,m s-1,Eastward Wind at 400hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+162,ua400,day,m s-1,Eastward Wind at 400hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+163,ua400,6hr,m s-1,Eastward Wind at 400hPa,eastward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+164,ua300,mon,m s-1,Eastward Wind at 300hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+165,ua300,day,m s-1,Eastward Wind at 300hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+166,ua300,6hr,m s-1,Eastward Wind at 300hPa,eastward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+167,ua250,mon,m s-1,Eastward Wind at 250hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+168,ua250,day,m s-1,Eastward Wind at 250hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+169,ua250,6hr,m s-1,Eastward Wind at 250hPa,eastward_wind,area: mean time: point,TIER1,,,,,,,,1,1,,,,,,2,0
+170,ua200,mon,m s-1,Eastward Wind at 200hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+171,ua200,day,m s-1,Eastward Wind at 200hPa,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+172,ua200,6hr,m s-1,Eastward Wind at 200hPa,eastward_wind,area: mean time: point,TIER1,,,,,,,,,1,,,,,,1,0
+173,va1000,mon,m s-1,Northward Wind at 1000hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+174,va1000,day,m s-1,Northward Wind at 1000hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+175,va1000,6hr,m s-1,Northward Wind at 1000hPa,northward_wind,area: mean time: point,TIER1,,,,,,,,,1,,,,,,1,0
+176,va925,mon,m s-1,Northward Wind at 925hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+177,va925,day,m s-1,Northward Wind at 925hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+178,va925,6hr,m s-1,Northward Wind at 925hPa,northward_wind,area: mean time: point,TIER1,,,,,,,,1,1,,,,,,2,0
+179,va850,mon,m s-1,Northward Wind at 850hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+180,va850,day,m s-1,Northward Wind at 850hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+181,va850,6hr,m s-1,Northward Wind at 850hPa,northward_wind,area: mean time: point,TIER1,,,,,,,,1,1,,,,,,2,0
+182,va700,mon,m s-1,Northward Wind at 700hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+183,va700,day,m s-1,Northward Wind at 700hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+184,va700,6hr,m s-1,Northward Wind at 700hPa,northward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+185,va600,mon,m s-1,Northward Wind at 600hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+186,va600,day,m s-1,Northward Wind at 600hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+187,va600,6hr,m s-1,Northward Wind at 600hPa,northward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+188,va500,mon,m s-1,Northward Wind at 500hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+189,va500,day,m s-1,Northward Wind at 500hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+190,va500,6hr,m s-1,Northward Wind at 500hPa,northward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+191,va400,mon,m s-1,Northward Wind at 400hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+192,va400,day,m s-1,Northward Wind at 400hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+193,va400,6hr,m s-1,Northward Wind at 400hPa,northward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+194,va300,mon,m s-1,Northward Wind at 300hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+195,va300,day,m s-1,Northward Wind at 300hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+196,va300,6hr,m s-1,Northward Wind at 300hPa,northward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+197,va250,mon,m s-1,Northward Wind at 250hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+198,va250,day,m s-1,Northward Wind at 250hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+199,va250,6hr,m s-1,Northward Wind at 250hPa,northward_wind,area: mean time: point,TIER1,,,,,,,,1,1,,,,,,2,0
+200,va200,mon,m s-1,Northward Wind at 200hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+201,va200,day,m s-1,Northward Wind at 200hPa,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+202,va200,6hr,m s-1,Northward Wind at 200hPa,northward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+203,ta1000,mon,K,Air Temperature at 1000hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+204,ta1000,day,K,Air Temperature at 1000hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+205,ta1000,6hr,K,Air Temperature at 1000hPa,air_temperature,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+206,ta925,mon,K,Air Temperature at 925hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+207,ta925,day,K,Air Temperature at 925hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+208,ta925,6hr,K,Air Temperature at 925hPa,air_temperature,area: mean time: point,TIER1,,,,,,,,,1,,,,,,1,0
+209,ta850,mon,K,Air Temperature at 850hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+210,ta850,day,K,Air Temperature at 850hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+211,ta850,6hr,K,Air Temperature at 850hPa,air_temperature,area: mean time: point,TIER1,,,,,,,,,1,,,,,,1,0
+212,ta700,mon,K,Air Temperature at 700hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+213,ta700,day,K,Air Temperature at 700hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+214,ta700,6hr,K,Air Temperature at 700hPa,air_temperature,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+215,ta600,mon,K,Air Temperature at 600hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+216,ta600,day,K,Air Temperature at 600hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+217,ta600,6hr,K,Air Temperature at 600hPa,air_temperature,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+218,ta500,mon,K,Air Temperature at 500hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+219,ta500,day,K,Air Temperature at 500hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+220,ta500,6hr,K,Air Temperature at 500hPa,air_temperature,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+221,ta400,mon,K,Air Temperature at 400hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+222,ta400,day,K,Air Temperature at 400hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+223,ta400,6hr,K,Air Temperature at 400hPa,air_temperature,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+224,ta300,mon,K,Air Temperature at 300hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+225,ta300,day,K,Air Temperature at 300hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+226,ta300,6hr,K,Air Temperature at 300hPa,air_temperature,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+227,ta250,mon,K,Air Temperature at 250hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+228,ta250,day,K,Air Temperature at 250hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+229,ta250,6hr,K,Air Temperature at 250hPa,air_temperature,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+230,ta200,mon,K,Air Temperature at 200hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+231,ta200,day,K,Air Temperature at 200hPa,air_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+232,ta200,6hr,K,Air Temperature at 200hPa,air_temperature,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+233,hus1000,mon,1,Specific Humidity at 1000hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+234,hus1000,day,1,Specific Humidity at 1000hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+235,hus1000,6hr,1,Specific Humidity at 1000hPa,specific_humidity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+236,hus925,mon,1,Specific Humidity at 925hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+237,hus925,day,1,Specific Humidity at 925hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+238,hus925,6hr,1,Specific Humidity at 925hPa,specific_humidity,area: mean time: point,TIER1,,,,,,,,,1,,,,,,1,0
+239,hus850,mon,1,Specific Humidity at 850hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+240,hus850,day,1,Specific Humidity at 850hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+241,hus850,6hr,1,Specific Humidity at 850hPa,specific_humidity,area: mean time: point,TIER1,,,,,,,,,1,,,,,,1,0
+242,hus700,mon,1,Specific Humidity at 700hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+243,hus700,day,1,Specific Humidity at 700hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+244,hus700,6hr,1,Specific Humidity at 700hPa,specific_humidity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+245,hus600,mon,1,Specific Humidity at 600hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+246,hus600,day,1,Specific Humidity at 600hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+247,hus600,6hr,1,Specific Humidity at 600hPa,specific_humidity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+248,hus500,mon,1,Specific Humidity at 500hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+249,hus500,day,1,Specific Humidity at 500hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+250,hus500,6hr,1,Specific Humidity at 500hPa,specific_humidity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+251,hus400,mon,1,Specific Humidity at 400hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+252,hus400,day,1,Specific Humidity at 400hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+253,hus400,6hr,1,Specific Humidity at 400hPa,specific_humidity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+254,hus300,mon,1,Specific Humidity at 300hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+255,hus300,day,1,Specific Humidity at 300hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+256,hus300,6hr,1,Specific Humidity at 300hPa,specific_humidity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+257,hus250,mon,1,Specific Humidity at 250hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+258,hus250,day,1,Specific Humidity at 250hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+259,hus250,6hr,1,Specific Humidity at 250hPa,specific_humidity,area: mean time: point,TIER1,,,,,,,,,1,,,,,,1,0
+260,hus200,mon,1,Specific Humidity at 200hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+261,hus200,day,1,Specific Humidity at 200hPa,specific_humidity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+262,hus200,6hr,1,Specific Humidity at 200hPa,specific_humidity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+263,zg1000,mon,m,Geopotential Height at 1000hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+264,zg1000,day,m,Geopotential Height at 1000hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+265,zg1000,6hr,m,Geopotential Height at 1000hPa,geopotential_height,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+266,zg925,mon,m,Geopotential Height at 925hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+267,zg925,day,m,Geopotential Height at 925hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+268,zg925,6hr,m,Geopotential Height at 925hPa,geopotential_height,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+269,zg850,mon,m,Geopotential Height at 850hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+270,zg850,day,m,Geopotential Height at 850hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+271,zg850,6hr,m,Geopotential Height at 850hPa,geopotential_height,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+272,zg700,mon,m,Geopotential Height at 700hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+273,zg700,day,m,Geopotential Height at 700hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+274,zg700,6hr,m,Geopotential Height at 700hPa,geopotential_height,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+275,zg600,mon,m,Geopotential Height at 600hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+276,zg600,day,m,Geopotential Height at 600hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+277,zg600,6hr,m,Geopotential Height at 600hPa,geopotential_height,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+278,zg500,mon,m,Geopotential Height at 500hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+279,zg500,day,m,Geopotential Height at 500hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+280,zg500,6hr,m,Geopotential Height at 500hPa,geopotential_height,area: mean time: point,TIER1,,,,,,,,,1,,,,,,1,0
+281,zg400,mon,m,Geopotential Height at 400hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+282,zg400,day,m,Geopotential Height at 400hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+283,zg400,6hr,m,Geopotential Height at 400hPa,geopotential_height,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+284,zg300,mon,m,Geopotential Height at 300hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+285,zg300,day,m,Geopotential Height at 300hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+286,zg300,6hr,m,Geopotential Height at 300hPa,geopotential_height,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+287,zg250,mon,m,Geopotential Height at 250hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+288,zg250,day,m,Geopotential Height at 250hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+289,zg250,6hr,m,Geopotential Height at 250hPa,geopotential_height,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+290,zg200,mon,m,Geopotential Height at 200hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+291,zg200,day,m,Geopotential Height at 200hPa,geopotential_height,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+292,zg200,6hr,m,Geopotential Height at 200hPa,geopotential_height,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+293,wa1000,mon,m s-1,Upward Air Velocity at 1000hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+294,wa1000,day,m s-1,Upward Air Velocity at 1000hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+295,wa1000,6hr,m s-1,Upward Air Velocity at 1000hPa,upward_air_velocity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+296,wa925,mon,m s-1,Upward Air Velocity at 925hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+297,wa925,day,m s-1,Upward Air Velocity at 925hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+298,wa925,6hr,m s-1,Upward Air Velocity at 925hPa,upward_air_velocity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+299,wa850,mon,m s-1,Upward Air Velocity at 850hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+300,wa850,day,m s-1,Upward Air Velocity at 850hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+301,wa850,6hr,m s-1,Upward Air Velocity at 850hPa,upward_air_velocity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+302,wa700,mon,m s-1,Upward Air Velocity at 700hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+303,wa700,day,m s-1,Upward Air Velocity at 700hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+304,wa700,6hr,m s-1,Upward Air Velocity at 700hPa,upward_air_velocity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+305,wa600,mon,m s-1,Upward Air Velocity at 600hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+306,wa600,day,m s-1,Upward Air Velocity at 600hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+307,wa600,6hr,m s-1,Upward Air Velocity at 600hPa,upward_air_velocity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+308,wa500,mon,m s-1,Upward Air Velocity at 500hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+309,wa500,day,m s-1,Upward Air Velocity at 500hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+310,wa500,6hr,m s-1,Upward Air Velocity at 500hPa,upward_air_velocity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+311,wa400,mon,m s-1,Upward Air Velocity at 400hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+312,wa400,day,m s-1,Upward Air Velocity at 400hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+313,wa400,6hr,m s-1,Upward Air Velocity at 400hPa,upward_air_velocity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+314,wa300,mon,m s-1,Upward Air Velocity at 300hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+315,wa300,day,m s-1,Upward Air Velocity at 300hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+316,wa300,6hr,m s-1,Upward Air Velocity at 300hPa,upward_air_velocity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+317,wa250,mon,m s-1,Upward Air Velocity at 250hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+318,wa250,day,m s-1,Upward Air Velocity at 250hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+319,wa250,6hr,m s-1,Upward Air Velocity at 250hPa,upward_air_velocity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+320,wa200,mon,m s-1,Upward Air Velocity at 200hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+321,wa200,day,m s-1,Upward Air Velocity at 200hPa,upward_air_velocity,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+322,wa200,6hr,m s-1,Upward Air Velocity at 200hPa,upward_air_velocity,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+323,ua50m,mon,m s-1,Eastward Wind at 50m,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+324,ua50m,day,m s-1,Eastward Wind at 50m,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,1,1,0
+325,ua50m,1hr,m s-1,Eastward Wind at 50m,eastward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,1,1,0
+326,ua100m,mon,m s-1,Eastward Wind at 100m,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+327,ua100m,day,m s-1,Eastward Wind at 100m,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,1,1,0
+328,ua100m,1hr,m s-1,Eastward Wind at 100m,eastward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,1,1,0
+329,ua150m,mon,m s-1,Eastward Wind at 150m,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+330,ua150m,day,m s-1,Eastward Wind at 150m,eastward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+331,ua150m,1hr,m s-1,Eastward Wind at 150m,eastward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
+332,va50m,mon,m s-1,Northward Wind at 50m,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+333,va50m,day,m s-1,Northward Wind at 50m,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,1,1,0
+334,va50m,1hr,m s-1,Northward Wind at 50m,northward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,1,1,0
+335,va100m,mon,m s-1,Northward Wind at 100m,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+336,va100m,day,m s-1,Northward Wind at 100m,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,1,1,0
+337,va100m,1hr,m s-1,Northward Wind at 100m,northward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,1,1,0
+338,va150m,mon,m s-1,Northward Wind at 150m,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
+339,va150m,day,m s-1,Northward Wind at 150m,northward_wind,area: time: mean,TIER1,,,,,,,,,,,,,,1,1,0
+340,va150m,1hr,m s-1,Northward Wind at 150m,northward_wind,area: mean time: point,TIER1,,,,,,,,,,,,,,1,1,0
+341,ta50m,mon,K,Air Temperature at 50m,air_temperature,area: time: mean,TIER1,requested for urban modeling,,,,,,,,,,,,,,0,0
+342,ta50m,day,K,Air Temperature at 50m,air_temperature,area: time: mean,TIER1,requested for urban modeling,,,,,,,,,,,,,,0,0
+343,ta50m,1hr,K,Air Temperature at 50m,air_temperature,area: mean time: point,TIER1,requested for urban modeling,,,,,,,,,,,,,,0,0
+344,hus50m,mon,1,Specific Humidity at 50m,specific_humidity,area: time: mean,TIER1,requested for urban modeling,,,,,,,,,,,,,,0,0
+345,hus50m,day,1,Specific Humidity at 50m,specific_humidity,area: time: mean,TIER1,requested for urban modeling,,,,,,,,,,,,,,0,0
+346,hus50m,1hr,1,Specific Humidity at 50m,specific_humidity,area: mean time: point,TIER1,requested for urban modeling,,,,,,,,,,,,,,0,0
+347,evspsblpot,mon,kg m-2 s-1,Potential Evapotranspiration,water_potential_evaporation_flux,area: mean where land time: mean,TIER2,,,,,,,,,,,,,,,0,0
+348,evspsblpot,day,kg m-2 s-1,Potential Evapotranspiration,water_potential_evaporation_flux,area: mean where land time: mean,TIER2,,,,,,,,,,,,,,,0,0
+349,evspsblpot,1hr,kg m-2 s-1,Potential Evapotranspiration,water_potential_evaporation_flux,area: mean where land time: mean,TIER2,,,,,,,,,,,,,,,0,0
+350,wsgsmax,mon,m s-1,Daily Maximum Near-Surface Wind Speed of Gust,wind_speed_of_gust,area: mean time: maximum within days time: mean over days,TIER2,,,,,,,,,,,,,,,0,0
+351,wsgsmax,day,m s-1,Daily Maximum Near-Surface Wind Speed of Gust,wind_speed_of_gust,area: mean time: maximum,TIER2,,,,,,,,,,,,,,1,1,0
+352,clh,mon,%,High Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,above 440 hPa,,,,,,,,,,,,,,0,0
+353,clh,day,%,High Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,above 440 hPa,,,,,,,,,,,,,,0,0
+354,clh,6hr,%,High Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,above 440 hPa,,,,,,,,,,,,,,0,0
+355,clm,mon,%,Mid Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,between 680 and 440 hPa,,,,,,,,,,,,,,0,0
+356,clm,day,%,Mid Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,between 680 and 440 hPa,,,,,,,,,,,,,,0,0
+357,clm,6hr,%,Mid Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,between 680 and 440 hPa,,,,,,,,,,,,,,0,0
+358,cll,mon,%,Low Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,below 680 hPa,,,,,,,,,,,,,,0,0
+359,cll,day,%,Low Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,below 680 hPa,,,,,,,,,,,,,,0,0
+360,cll,6hr,%,Low Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,below 680 hPa,,,,,,,,,,,,,,0,0
+361,rsdscs,mon,W m-2,Surface Downwelling Clear-Sky Shortwave Radiation,surface_downwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+362,rsdscs,day,W m-2,Surface Downwelling Clear-Sky Shortwave Radiation,surface_downwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+363,rsdscs,6hr,W m-2,Surface Downwelling Clear-Sky Shortwave Radiation,surface_downwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,1,1,0
+364,rldscs,mon,W m-2,Surface Downwelling Clear-Sky Longwave Radiation,surface_downwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+365,rldscs,day,W m-2,Surface Downwelling Clear-Sky Longwave Radiation,surface_downwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+366,rldscs,6hr,W m-2,Surface Downwelling Clear-Sky Longwave Radiation,surface_downwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+367,rsuscs,mon,W m-2,Surface Upwelling Clear-Sky Shortwave Radiation,surface_upwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+368,rsuscs,day,W m-2,Surface Upwelling Clear-Sky Shortwave Radiation,surface_upwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+369,rsuscs,6hr,W m-2,Surface Upwelling Clear-Sky Shortwave Radiation,surface_upwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+370,rluscs,mon,W m-2,Surface Upwelling Clear-Sky Longwave Radiation,surface_upwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+371,rluscs,day,W m-2,Surface Upwelling Clear-Sky Longwave Radiation,surface_upwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+372,rluscs,6hr,W m-2,Surface Upwelling Clear-Sky Longwave Radiation,surface_upwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+373,rsutcs,mon,W m-2,TOA Outgoing Clear-Sky Shortwave Radiation,toa_outgoing_shortwave_flux_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+374,rsutcs,day,W m-2,TOA Outgoing Clear-Sky Shortwave Radiation,toa_outgoing_shortwave_flux_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+375,rsutcs,6hr,W m-2,TOA Outgoing Clear-Sky Shortwave Radiation,toa_outgoing_shortwave_flux_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+376,rlutcs,mon,W m-2,TOA Outgoing Clear-Sky Longwave Radiation,toa_outgoing_longwave_flux_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+377,rlutcs,day,W m-2,TOA Outgoing Clear-Sky Longwave Radiation,toa_outgoing_longwave_flux_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+378,rlutcs,6hr,W m-2,TOA Outgoing Clear-Sky Longwave Radiation,toa_outgoing_longwave_flux_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+379,z0,mon,m,Surface Roughness Length,surface_roughness_length,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+380,z0,day,m,Surface Roughness Length,surface_roughness_length,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+381,cape,mon,J kg-1,Convective Available Potential Energy,atmosphere_convective_available_potential_energy_wrt_surface,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+382,cape,day,J kg-1,Convective Available Potential Energy,atmosphere_convective_available_potential_energy_wrt_surface,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+383,cape,1hr,J kg-1,Convective Available Potential Energy,atmosphere_convective_available_potential_energy_wrt_surface,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+384,li,mon,K,Lifted Index,temperature_difference_between_ambient_air_and_air_lifted_adiabatically_from_the_surface,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+385,li,day,K,Lifted Index,temperature_difference_between_ambient_air_and_air_lifted_adiabatically_from_the_surface,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+386,li,1hr,K,Lifted Index,temperature_difference_between_ambient_air_and_air_lifted_adiabatically_from_the_surface,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+387,cin,mon,J kg-1,Convective Inhibition,atmosphere_convective_inhibition_wrt_surface,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+388,cin,day,J kg-1,Convective Inhibition,atmosphere_convective_inhibition_wrt_surface,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+389,cin,1hr,J kg-1,Convective Inhibition,atmosphere_convective_inhibition_wrt_surface,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+390,capemax,mon,J kg-1,Daily Maximum Convective Available Potential Energy,atmosphere_convective_available_potential_energy_wrt_surface,area: mean time: maximum within days time: mean over days,TIER2,,,,,,,,,,,,,,,0,0
+391,capemax,day,J kg-1,Daily Maximum Convective Available Potential Energy,atmosphere_convective_available_potential_energy_wrt_surface,area: mean time: maximum,TIER2,,,,,,,,,,,,,,,0,0
+392,limax,mon,K,Daily Maximum Lifted Index,temperature_difference_between_ambient_air_and_air_lifted_adiabatically_from_the_surface,area: mean time: maximum within days time: mean over days,TIER2,,,,,,,,,,,,,,,0,0
+393,limax,day,K,Daily Maximum Lifted Index,temperature_difference_between_ambient_air_and_air_lifted_adiabatically_from_the_surface,area: mean time: maximum,TIER2,,,,,,,,,,,,,,,0,0
+394,cinmax,mon,J kg-1,Daily Maximum Convective Inhibition,atmosphere_convective_inhibition_wrt_surface,area: mean time: maximum within days time: mean over days,TIER2,,,,,,,,,,,,,,,0,0
+395,cinmax,day,J kg-1,Daily Maximum Convective Inhibition,atmosphere_convective_inhibition_wrt_surface,area: mean time: maximum,TIER2,,,,,,,,,,,,,,,0,0
+396,od550aer,mon,1,Ambient Aerosol Optical Thickness at 550nm,atmosphere_optical_thickness_due_to_ambient_aerosol_particles,area: time: mean,TIER2,"long_name fixed, 2022.09.22  https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/6",,,,,,,,,,,,,,0,0
+397,ua150,mon,m s-1,Eastward Wind at 150hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+398,ua150,day,m s-1,Eastward Wind at 150hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+399,ua150,6hr,m s-1,Eastward Wind at 150hPa,eastward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+400,ua100,mon,m s-1,Eastward Wind at 100hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+401,ua100,day,m s-1,Eastward Wind at 100hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+402,ua100,6hr,m s-1,Eastward Wind at 100hPa,eastward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+403,ua70,mon,m s-1,Eastward Wind at 70hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+404,ua70,day,m s-1,Eastward Wind at 70hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+405,ua70,6hr,m s-1,Eastward Wind at 70hPa,eastward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+406,ua50,mon,m s-1,Eastward Wind at 50hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+407,ua50,day,m s-1,Eastward Wind at 50hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+408,ua50,6hr,m s-1,Eastward Wind at 50hPa,eastward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+409,ua30,mon,m s-1,Eastward Wind at 30hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+410,ua30,day,m s-1,Eastward Wind at 30hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+411,ua30,6hr,m s-1,Eastward Wind at 30hPa,eastward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+412,ua20,mon,m s-1,Eastward Wind at 20hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+413,ua20,day,m s-1,Eastward Wind at 20hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+414,ua20,6hr,m s-1,Eastward Wind at 20hPa,eastward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+415,ua10,mon,m s-1,Eastward Wind at 10hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+416,ua10,day,m s-1,Eastward Wind at 10hPa,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+417,ua10,6hr,m s-1,Eastward Wind at 10hPa,eastward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+418,va150,mon,m s-1,Northward Wind at 150hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+419,va150,day,m s-1,Northward Wind at 150hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+420,va150,6hr,m s-1,Northward Wind at 150hPa,northward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+421,va100,mon,m s-1,Northward Wind at 100hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+422,va100,day,m s-1,Northward Wind at 100hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+423,va100,6hr,m s-1,Northward Wind at 100hPa,northward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+424,va70,mon,m s-1,Northward Wind at 70hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+425,va70,day,m s-1,Northward Wind at 70hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+426,va70,6hr,m s-1,Northward Wind at 70hPa,northward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+427,va50,mon,m s-1,Northward Wind at 50hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+428,va50,day,m s-1,Northward Wind at 50hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+429,va50,6hr,m s-1,Northward Wind at 50hPa,northward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+430,va30,mon,m s-1,Northward Wind at 30hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+431,va30,day,m s-1,Northward Wind at 30hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+432,va30,6hr,m s-1,Northward Wind at 30hPa,northward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+433,va20,mon,m s-1,Northward Wind at 20hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+434,va20,day,m s-1,Northward Wind at 20hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+435,va20,6hr,m s-1,Northward Wind at 20hPa,northward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+436,va10,mon,m s-1,Northward Wind at 10hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+437,va10,day,m s-1,Northward Wind at 10hPa,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+438,va10,6hr,m s-1,Northward Wind at 10hPa,northward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+439,ta150,mon,K,Air Temperature at 150hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+440,ta150,day,K,Air Temperature at 150hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+441,ta150,6hr,K,Air Temperature at 150hPa,air_temperature,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+442,ta100,mon,K,Air Temperature at 100hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+443,ta100,day,K,Air Temperature at 100hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+444,ta100,6hr,K,Air Temperature at 100hPa,air_temperature,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+445,ta70,mon,K,Air Temperature at 70hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+446,ta70,day,K,Air Temperature at 70hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+447,ta70,6hr,K,Air Temperature at 70hPa,air_temperature,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+448,ta50,mon,K,Air Temperature at 50hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+449,ta50,day,K,Air Temperature at 50hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+450,ta50,6hr,K,Air Temperature at 50hPa,air_temperature,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+451,ta30,mon,K,Air Temperature at 30hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+452,ta30,day,K,Air Temperature at 30hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+453,ta30,6hr,K,Air Temperature at 30hPa,air_temperature,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+454,ta20,mon,K,Air Temperature at 20hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+455,ta20,day,K,Air Temperature at 20hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+456,ta20,6hr,K,Air Temperature at 20hPa,air_temperature,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+457,ta10,mon,K,Air Temperature at 10hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+458,ta10,day,K,Air Temperature at 10hPa,air_temperature,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+459,ta10,6hr,K,Air Temperature at 10hPa,air_temperature,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+460,hus150,mon,1,Specific Humidity at 150hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+461,hus150,day,1,Specific Humidity at 150hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+462,hus150,6hr,1,Specific Humidity at 150hPa,specific_humidity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+463,hus100,mon,1,Specific Humidity at 100hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+464,hus100,day,1,Specific Humidity at 100hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+465,hus100,6hr,1,Specific Humidity at 100hPa,specific_humidity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+466,hus70,mon,1,Specific Humidity at 70hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+467,hus70,day,1,Specific Humidity at 70hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+468,hus70,6hr,1,Specific Humidity at 70hPa,specific_humidity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+469,hus50,mon,1,Specific Humidity at 50hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+470,hus50,day,1,Specific Humidity at 50hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+471,hus50,6hr,1,Specific Humidity at 50hPa,specific_humidity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+472,hus30,mon,1,Specific Humidity at 30hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+473,hus30,day,1,Specific Humidity at 30hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+474,hus30,6hr,1,Specific Humidity at 30hPa,specific_humidity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+475,hus20,mon,1,Specific Humidity at 20hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+476,hus20,day,1,Specific Humidity at 20hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+477,hus20,6hr,1,Specific Humidity at 20hPa,specific_humidity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+478,hus10,mon,1,Specific Humidity at 10hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+479,hus10,day,1,Specific Humidity at 10hPa,specific_humidity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+480,hus10,6hr,1,Specific Humidity at 10hPa,specific_humidity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+481,zg150,mon,m,Geopotential Height at 150hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+482,zg150,day,m,Geopotential Height at 150hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+483,zg150,6hr,m,Geopotential Height at 150hPa,geopotential_height,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+484,zg100,mon,m,Geopotential Height at 100hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+485,zg100,day,m,Geopotential Height at 100hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+486,zg100,6hr,m,Geopotential Height at 100hPa,geopotential_height,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+487,zg70,mon,m,Geopotential Height at 70hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+488,zg70,day,m,Geopotential Height at 70hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+489,zg70,6hr,m,Geopotential Height at 70hPa,geopotential_height,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+490,zg50,mon,m,Geopotential Height at 50hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+491,zg50,day,m,Geopotential Height at 50hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+492,zg50,6hr,m,Geopotential Height at 50hPa,geopotential_height,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+493,zg30,mon,m,Geopotential Height at 30hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+494,zg30,day,m,Geopotential Height at 30hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+495,zg30,6hr,m,Geopotential Height at 30hPa,geopotential_height,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+496,zg20,mon,m,Geopotential Height at 20hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+497,zg20,day,m,Geopotential Height at 20hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+498,zg20,6hr,m,Geopotential Height at 20hPa,geopotential_height,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+499,zg10,mon,m,Geopotential Height at 10hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+500,zg10,day,m,Geopotential Height at 10hPa,geopotential_height,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+501,zg10,6hr,m,Geopotential Height at 10hPa,geopotential_height,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+502,wa150,mon,m s-1,Upward Air Velocity at 150hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+503,wa150,day,m s-1,Upward Air Velocity at 150hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+504,wa150,6hr,m s-1,Upward Air Velocity at 150hPa,upward_air_velocity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+505,wa100,mon,m s-1,Upward Air Velocity at 100hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+506,wa100,day,m s-1,Upward Air Velocity at 100hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+507,wa100,6hr,m s-1,Upward Air Velocity at 100hPa,upward_air_velocity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+508,wa70,mon,m s-1,Upward Air Velocity at 70hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+509,wa70,day,m s-1,Upward Air Velocity at 70hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+510,wa70,6hr,m s-1,Upward Air Velocity at 70hPa,upward_air_velocity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+511,wa50,mon,m s-1,Upward Air Velocity at 50hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+512,wa50,day,m s-1,Upward Air Velocity at 50hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+513,wa50,6hr,m s-1,Upward Air Velocity at 50hPa,upward_air_velocity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+514,wa30,mon,m s-1,Upward Air Velocity at 30hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+515,wa30,day,m s-1,Upward Air Velocity at 30hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+516,wa30,6hr,m s-1,Upward Air Velocity at 30hPa,upward_air_velocity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+517,wa20,mon,m s-1,Upward Air Velocity at 20hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+518,wa20,day,m s-1,Upward Air Velocity at 20hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+519,wa20,6hr,m s-1,Upward Air Velocity at 20hPa,upward_air_velocity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+520,wa10,mon,m s-1,Upward Air Velocity at 10hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+521,wa10,day,m s-1,Upward Air Velocity at 10hPa,upward_air_velocity,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+522,wa10,6hr,m s-1,Upward Air Velocity at 10hPa,upward_air_velocity,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+523,ua200m,mon,m s-1,Eastward Wind at 200m,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+524,ua200m,day,m s-1,Eastward Wind at 200m,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+525,ua200m,1hr,m s-1,Eastward Wind at 200m,eastward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+526,ua250m,mon,m s-1,Eastward Wind at 250m,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+527,ua250m,day,m s-1,Eastward Wind at 250m,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+528,ua250m,1hr,m s-1,Eastward Wind at 250m,eastward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+529,ua300m,mon,m s-1,Eastward Wind at 300m,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+530,ua300m,day,m s-1,Eastward Wind at 300m,eastward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+531,ua300m,1hr,m s-1,Eastward Wind at 300m,eastward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+532,va200m,mon,m s-1,Northward Wind at 200m,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+533,va200m,day,m s-1,Northward Wind at 200m,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+534,va200m,1hr,m s-1,Northward Wind at 200m,northward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+535,va250m,mon,m s-1,Northward Wind at 250m,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+536,va250m,day,m s-1,Northward Wind at 250m,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+537,va250m,1hr,m s-1,Northward Wind at 250m,northward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+538,va300m,mon,m s-1,Northward Wind at 300m,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+539,va300m,day,m s-1,Northward Wind at 300m,northward_wind,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+540,va300m,1hr,m s-1,Northward Wind at 300m,northward_wind,area: mean time: point,TIER2,,,,,,,,,,,,,,,0,0
+541,sftgif,fx,%,Percentage of the Grid Cell Covered by Glacier,land_ice_area_fraction,area: mean,TIER2,,,,,,,,,,,,,,,0,0
+542,mrsofc,fx,kg m-2,Capacity of Soil to Store Water  (Field Capacity),soil_moisture_content_at_field_capacity,area: mean where land,TIER2,,,,,,,,,,,,,,,0,0
+543,rootd,fx,m,Maximum Root Depth,root_depth,area: mean,TIER2,,,,,,,,,,,,,,,0,0
+544,sftlaf,fx,%,Percentage of the Grid Cell Occupied by Lake,area_fraction,area: mean,TIER2,not in CMIP or in CF,1,1,,,,,,,,,1,,,3,0
+545,sfturf,fx,%,Percentage of the Grid Cell Occupied by Urban Area,area_fraction,area: mean,TIER2,not in CMIP or in CF,,1,1,,,,,,,,,,,2,0
+546,dtb,fx,m,Depth to Bedrock,bedrock_depth_below_ground_level,area: mean,TIER2,not in CMIP or in CF (lower boundary of land surface models),,,,,,,,,,,,,,0,0
+547,areacella,fx,m2,Atmosphere Grid-Cell Area,cell_area,area: sum,TIER2,,,,,,,,,,,,,,,0,0
