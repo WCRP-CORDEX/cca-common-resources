@@ -10,5 +10,9 @@ Go to the repository for individual analyses for specific code and discussion (s
 |----------|------------|---------|
 | Urban heat stress | https://github.com/WCRP-CORDEX/cca-urban-heat-stress | yes |
 | Extreme precipitation | https://github.com/WCRP-CORDEX/cca-extreme-precipitation | yes |
+| Compound events | https://github.com/WCRP-CORDEX/cca-compound-events | yes |
 
+We are grateful to Sigma2 (https://www.sigma2.no) and the National Infrastructure for High-Performance Computing and Storage in Norway, which hosted the CORDEX data and provided analysis tools to work jointly on these publications.
+All publications should include the acknowledgement:
+> We acknowledge the provision of resources by Sigma2 - the National Infrastructure for High-Performance Computing and Storage in Norway.
 
