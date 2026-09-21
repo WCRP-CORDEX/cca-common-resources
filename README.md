@@ -9,6 +9,7 @@ Go to the repository for individual analyses for specific code and discussion (s
 | Analysis | Repository | Private |
 |----------|------------|---------|
 | Urban heat stress | https://github.com/WCRP-CORDEX/cca-urban-heat-stress | yes |
+| Drought | https://github.com/WCRP-CORDEX/cca-droughts | yes |
 | Extreme precipitation | https://github.com/WCRP-CORDEX/cca-extreme-precipitation | yes |
 | Compound events | https://github.com/WCRP-CORDEX/cca-compound-events | yes |
 

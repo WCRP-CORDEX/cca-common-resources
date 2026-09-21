@@ -1,23 +1,23 @@
 i,out_name,frequency,units,long_name,standard_name,cell_methods,priority,comment,CDX-CORE SI,urban,heatstress,xtrprecip,xtrtemp,compound,extrcyclones,tropcyclones,mountains,drought,uncertainty,fire,energy,n_analyses,n_opt
 1,tas,mon,K,Near-Surface Air Temperature,air_temperature,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
-2,tas,day,K,Near-Surface Air Temperature,air_temperature,area: time: mean,CORE,,,,,,1,,,,,,,,,1,0
-3,tas,1hr,K,Near-Surface Air Temperature,air_temperature,area: mean time: point,CORE,,1,,1,,1,1,,,,,2,1,1,7,1
+2,tas,day,K,Near-Surface Air Temperature,air_temperature,area: time: mean,CORE,,,,,,1,,,,1,,,,,2,0
+3,tas,1hr,K,Near-Surface Air Temperature,air_temperature,area: mean time: point,CORE,,1,1,1,,1,1,,,,,2,1,1,8,1
 4,tasmax,mon,K,Daily Maximum Near-Surface Air Temperature,air_temperature,area: mean time: maximum within days time: mean over days,CORE,maximum from all integrated time steps per day,,,,,,,,,,,,,,0,0
-5,tasmax,day,K,Daily Maximum Near-Surface Air Temperature,air_temperature,area: mean time: maximum,CORE,maximum from all integrated time steps per day,1,,,,1,,,,,,1,,1,4,0
+5,tasmax,day,K,Daily Maximum Near-Surface Air Temperature,air_temperature,area: mean time: maximum,CORE,maximum from all integrated time steps per day,1,1,,,1,,,,1,1,1,,1,7,0
 6,tasmin,mon,K,Daily Minimum Near-Surface Air Temperature,air_temperature,area: mean time: minimum within days time: mean over days,CORE,minimum from all integrated time steps per day,,,,,,,,,,,,,,0,0
-7,tasmin,day,K,Daily Minimum Near-Surface Air Temperature,air_temperature,area: mean time: minimum,CORE,minimum from all integrated time steps per day,1,,,,1,,,,,,1,,,3,0
-8,pr,mon,kg m-2 s-1,Precipitation,precipitation_flux,area: time: mean,CORE,,,,,1,,,,,,,,,,1,0
-9,pr,day,kg m-2 s-1,Precipitation,precipitation_flux,area: time: mean,CORE,,,,,1,,,,,,,1,,1,3,0
-10,pr,1hr,kg m-2 s-1,Precipitation,precipitation_flux,area: time: mean,CORE,,1,,,1,,1,1,1,,,2,1,1,8,1
-11,evspsbl,mon,kg m-2 s-1,Evaporation Including Sublimation and Transpiration,water_evapotranspiration_flux,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
+7,tasmin,day,K,Daily Minimum Near-Surface Air Temperature,air_temperature,area: mean time: minimum,CORE,minimum from all integrated time steps per day,1,1,,,1,,,,1,1,1,,,6,0
+8,pr,mon,kg m-2 s-1,Precipitation,precipitation_flux,area: time: mean,CORE,,,,,2,,,,,,,,,,1,1
+9,pr,day,kg m-2 s-1,Precipitation,precipitation_flux,area: time: mean,CORE,,,,,1,,,,,,1,1,,1,4,0
+10,pr,1hr,kg m-2 s-1,Precipitation,precipitation_flux,area: time: mean,CORE,,1,1,,1,,1,1,1,,,2,1,1,9,1
+11,evspsbl,mon,kg m-2 s-1,Evaporation Including Sublimation and Transpiration,water_evapotranspiration_flux,area: time: mean,CORE,,,,,,,,,,,1,,,,1,0
 12,evspsbl,day,kg m-2 s-1,Evaporation Including Sublimation and Transpiration,water_evapotranspiration_flux,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
 13,evspsbl,1hr,kg m-2 s-1,Evaporation Including Sublimation and Transpiration,water_evapotranspiration_flux,area: time: mean,CORE,,,,,,,,,,,,,,1,1,0
 14,huss,mon,1,Near-Surface Specific Humidity,specific_humidity,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
-15,huss,day,1,Near-Surface Specific Humidity,specific_humidity,area: time: mean,CORE,,,,,,1,,,,,,,,,1,0
+15,huss,day,1,Near-Surface Specific Humidity,specific_humidity,area: time: mean,CORE,,,,,,1,,,,1,,,,,2,0
 16,huss,1hr,1,Near-Surface Specific Humidity,specific_humidity,area: mean time: point,CORE,,,,,,1,1,,,,,,,1,3,0
 17,hurs,mon,%,Near-Surface Relative Humidity,relative_humidity,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
-18,hurs,day,%,Near-Surface Relative Humidity,relative_humidity,area: time: mean,CORE,,,,,,1,,,,,,,,,1,0
-19,hurs,1hr,%,Near-Surface Relative Humidity,relative_humidity,area: mean time: point,CORE,,,,1,,1,,,1,,,,1,,4,0
+18,hurs,day,%,Near-Surface Relative Humidity,relative_humidity,area: time: mean,CORE,,,1,,,1,,,,,,,,,2,0
+19,hurs,1hr,%,Near-Surface Relative Humidity,relative_humidity,area: mean time: point,CORE,,,2,1,,1,,,1,,,,1,,5,1
 20,ps,mon,Pa,Surface Air Pressure,surface_air_pressure,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
 21,ps,day,Pa,Surface Air Pressure,surface_air_pressure,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
 22,ps,1hr,Pa,Surface Air Pressure,surface_air_pressure,area: mean time: point,CORE,,,,1,,,,,,,,,,1,2,0
@@ -25,7 +25,7 @@ i,out_name,frequency,units,long_name,standard_name,cell_methods,priority,comment
 24,psl,day,Pa,Sea Level Pressure,air_pressure_at_mean_sea_level,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
 25,psl,1hr,Pa,Sea Level Pressure,air_pressure_at_mean_sea_level,area: mean time: point,CORE,,,,,,1,,1,1,,,,,1,4,0
 26,sfcWind,mon,m s-1,Near-Surface Wind Speed,wind_speed,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
-27,sfcWind,day,m s-1,Near-Surface Wind Speed,wind_speed,area: time: mean,CORE,,,,,,,,,,,,,,1,1,0
+27,sfcWind,day,m s-1,Near-Surface Wind Speed,wind_speed,area: time: mean,CORE,,,1,,,,,,,,,,,1,2,0
 28,sfcWind,1hr,m s-1,Near-Surface Wind Speed,wind_speed,area: mean time: point,CORE,,,,1,,,1,,1,,,,1,1,5,0
 29,uas,mon,m s-1,Eastward Near-Surface Wind,eastward_wind,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
 30,uas,day,m s-1,Eastward Near-Surface Wind,eastward_wind,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
@@ -42,8 +42,8 @@ i,out_name,frequency,units,long_name,standard_name,cell_methods,priority,comment
 41,rlds,mon,W m-2,Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
 42,rlds,day,W m-2,Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,area: time: mean,CORE,,,,,,,,,,,,,,,0,0
 43,rlds,1hr,W m-2,Surface Downwelling Longwave Radiation,surface_downwelling_longwave_flux_in_air,area: time: mean,CORE,,,,1,,,,,,,,,,1,2,0
-44,orog,fx,m,Surface Altitude,surface_altitude,area: mean,CORE,,1,1,1,,,1,1,1,,,1,,1,8,0
-45,sftlf,fx,%,Percentage of the Grid Cell Occupied by Land,land_area_fraction,area: mean,CORE,,1,1,1,,,1,,,,,1,1,1,7,0
+44,orog,fx,m,Surface Altitude,surface_altitude,area: mean,CORE,,1,1,1,,,1,1,1,1,,1,,1,9,0
+45,sftlf,fx,%,Percentage of the Grid Cell Occupied by Land,land_area_fraction,area: mean,CORE,,1,1,1,,,1,,,,1,1,1,1,8,0
 46,ts,mon,K,Surface Temperature,surface_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
 47,ts,day,K,Surface Temperature,surface_temperature,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
 48,ts,1hr,K,Surface Temperature,surface_temperature,area: mean time: point,TIER1,,,,,,,,,,,,,,,0,0
@@ -57,10 +57,10 @@ i,out_name,frequency,units,long_name,standard_name,cell_methods,priority,comment
 56,prsn,mon,kg m-2 s-1,Snowfall Flux,snowfall_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
 57,prsn,day,kg m-2 s-1,Snowfall Flux,snowfall_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
 58,prsn,1hr,kg m-2 s-1,Snowfall Flux,snowfall_flux,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
-59,mrros,mon,kg m-2 s-1,Surface Runoff,surface_runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+59,mrros,mon,kg m-2 s-1,Surface Runoff,surface_runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,1,,,,1,0
 60,mrros,day,kg m-2 s-1,Surface Runoff,surface_runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
 61,mrros,6hr,kg m-2 s-1,Surface Runoff,surface_runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,1,1,0
-62,mrro,mon,kg m-2 s-1,Total Runoff,runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+62,mrro,mon,kg m-2 s-1,Total Runoff,runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,1,,,,1,0
 63,mrro,day,kg m-2 s-1,Total Runoff,runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,1,1,0
 64,mrro,6hr,kg m-2 s-1,Total Runoff,runoff_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,1,1,0
 65,snm,mon,kg m-2 s-1,Surface Snow Melt,surface_snow_melt_flux,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
@@ -109,17 +109,17 @@ i,out_name,frequency,units,long_name,standard_name,cell_methods,priority,comment
 108,mrsfl,mon,kg m-2,Frozen Water Content of Soil Layer,frozen_water_content_of_soil_layer,area: mean where land time: mean,TIER1,"The mass of frosen water in each soil layer (3D variable). Reported as missing for grid cells with no land. (not in CMIP) [mrfsol -> mrsfl, 2022.09.22, https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 ]",,,,,,,,,,,,,,0,0
 109,mrsfl,day,kg m-2,Frozen Water Content of Soil Layer,frozen_water_content_of_soil_layer,area: mean where land time: mean,TIER1,"The mass of frosen water in each soil layer (3D variable). Reported as missing for grid cells with no land. (not in CMIP) [mrfsol -> mrsfl, 2022.09.22, https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 ]",,,,,,,,,,,,,,0,0
 110,mrsfl,6hr,kg m-2,Frozen Water Content of Soil Layer,frozen_water_content_of_soil_layer,area: mean where land time: point,TIER1,"The mass of frosen water in each soil layer (3D variable). Reported as missing for grid cells with no land. (not in CMIP) [mrfsol -> mrsfl, 2022.09.22, https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 ]",,,,,,,,,,,,,,0,0
-111,mrso,mon,kg m-2,Total Soil Moisture Content,mass_content_of_water_in_soil,area: mean where land time: mean,TIER1,"The mass of water in all phases per unit area, summed over all soil layers.",,,,,,,,,,,,,,0,0
+111,mrso,mon,kg m-2,Total Soil Moisture Content,mass_content_of_water_in_soil,area: mean where land time: mean,TIER1,"The mass of water in all phases per unit area, summed over all soil layers.",,,,,,,,,,1,,,,1,0
 112,mrso,day,kg m-2,Total Soil Moisture Content,mass_content_of_water_in_soil,area: mean where land time: mean,TIER1,"The mass of water in all phases per unit area, summed over all soil layers.",,,,,,,,,,,,,,0,0
 113,mrso,6hr,kg m-2,Total Soil Moisture Content,mass_content_of_water_in_soil,area: mean where land time: point,TIER1,"The mass of water in all phases per unit area, summed over all soil layers.",,,,,,,,,,,,,,0,0
-114,mrsos,mon,kg m-2,Moisture in Upper Portion of Soil Column,mass_content_of_water_in_soil_layer,area: mean where land time: mean,TIER1,The mass of water in all phases in the upper 10cm of the soil layer. Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
+114,mrsos,mon,kg m-2,Moisture in Upper Portion of Soil Column,mass_content_of_water_in_soil_layer,area: mean where land time: mean,TIER1,The mass of water in all phases in the upper 10cm of the soil layer. Reported as missing for grid cells with no land.,,,,,,,,,,1,,,,1,0
 115,mrsos,day,kg m-2,Moisture in Upper Portion of Soil Column,mass_content_of_water_in_soil_layer,area: mean where land time: mean,TIER1,The mass of water in all phases in the upper 10cm of the soil layer. Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
 116,mrsos,1hr,kg m-2,Moisture in Upper Portion of Soil Column,mass_content_of_water_in_soil_layer,area: mean where land time: point,TIER1,The mass of water in all phases in the upper 10cm of the soil layer. Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
 117,mrsol,mon,kg m-2,Total Water Content of Soil Layer,mass_content_of_water_in_soil_layer,area: mean where land time: mean,TIER1,The mass of water in all phases in each soil layer (3D variable). Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
 118,mrsol,day,kg m-2,Total Water Content of Soil Layer,mass_content_of_water_in_soil_layer,area: mean where land time: mean,TIER1,The mass of water in all phases in each soil layer (3D variable). Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
 119,mrsol,6hr,kg m-2,Total Water Content of Soil Layer,mass_content_of_water_in_soil_layer,area: mean where land time: point,TIER1,The mass of water in all phases in each soil layer (3D variable). Reported as missing for grid cells with no land.,,,,,,,,,,,,,,0,0
 120,snw,mon,kg m-2,Surface Snow Amount,surface_snow_amount,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
-121,snw,day,kg m-2,Surface Snow Amount,surface_snow_amount,area: mean where land time: mean,TIER1,,,,,,,,,,,,,,,0,0
+121,snw,day,kg m-2,Surface Snow Amount,surface_snow_amount,area: mean where land time: mean,TIER1,,,,,,,,,,1,,,,,1,0
 122,snw,6hr,kg m-2,Surface Snow Amount,surface_snow_amount,area: mean where land time: point,TIER1,,,,,,,,,,,,,,1,1,0
 123,snc,mon,%,Snow Area Percentage,surface_snow_area_fraction,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
 124,snc,day,%,Snow Area Percentage,surface_snow_area_fraction,area: time: mean,TIER1,,,,,,,,,,,,,,,0,0
@@ -345,7 +345,7 @@ i,out_name,frequency,units,long_name,standard_name,cell_methods,priority,comment
 344,hus50m,mon,1,Specific Humidity at 50m,specific_humidity,area: time: mean,TIER1,requested for urban modeling,,,,,,,,,,,,,,0,0
 345,hus50m,day,1,Specific Humidity at 50m,specific_humidity,area: time: mean,TIER1,requested for urban modeling,,,,,,,,,,,,,,0,0
 346,hus50m,1hr,1,Specific Humidity at 50m,specific_humidity,area: mean time: point,TIER1,requested for urban modeling,,,,,,,,,,,,,,0,0
-347,evspsblpot,mon,kg m-2 s-1,Potential Evapotranspiration,water_potential_evaporation_flux,area: mean where land time: mean,TIER2,,,,,,,,,,,,,,,0,0
+347,evspsblpot,mon,kg m-2 s-1,Potential Evapotranspiration,water_potential_evaporation_flux,area: mean where land time: mean,TIER2,,,,,,,,,,,2,,,,1,1
 348,evspsblpot,day,kg m-2 s-1,Potential Evapotranspiration,water_potential_evaporation_flux,area: mean where land time: mean,TIER2,,,,,,,,,,,,,,,0,0
 349,evspsblpot,1hr,kg m-2 s-1,Potential Evapotranspiration,water_potential_evaporation_flux,area: mean where land time: mean,TIER2,,,,,,,,,,,,,,,0,0
 350,wsgsmax,mon,m s-1,Daily Maximum Near-Surface Wind Speed of Gust,wind_speed_of_gust,area: mean time: maximum within days time: mean over days,TIER2,,,,,,,,,,,,,,,0,0
@@ -360,13 +360,13 @@ i,out_name,frequency,units,long_name,standard_name,cell_methods,priority,comment
 359,cll,day,%,Low Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,below 680 hPa,,,,,,,,,,,,,,0,0
 360,cll,6hr,%,Low Level Cloud Fraction,cloud_area_fraction_in_atmosphere_layer,area: time: mean,TIER2,below 680 hPa,,,,,,,,,,,,,,0,0
 361,rsdscs,mon,W m-2,Surface Downwelling Clear-Sky Shortwave Radiation,surface_downwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
-362,rsdscs,day,W m-2,Surface Downwelling Clear-Sky Shortwave Radiation,surface_downwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+362,rsdscs,day,W m-2,Surface Downwelling Clear-Sky Shortwave Radiation,surface_downwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,1,,,,,1,0
 363,rsdscs,6hr,W m-2,Surface Downwelling Clear-Sky Shortwave Radiation,surface_downwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,1,1,0
 364,rldscs,mon,W m-2,Surface Downwelling Clear-Sky Longwave Radiation,surface_downwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
 365,rldscs,day,W m-2,Surface Downwelling Clear-Sky Longwave Radiation,surface_downwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
 366,rldscs,6hr,W m-2,Surface Downwelling Clear-Sky Longwave Radiation,surface_downwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
 367,rsuscs,mon,W m-2,Surface Upwelling Clear-Sky Shortwave Radiation,surface_upwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
-368,rsuscs,day,W m-2,Surface Upwelling Clear-Sky Shortwave Radiation,surface_upwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
+368,rsuscs,day,W m-2,Surface Upwelling Clear-Sky Shortwave Radiation,surface_upwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,1,,,,,1,0
 369,rsuscs,6hr,W m-2,Surface Upwelling Clear-Sky Shortwave Radiation,surface_upwelling_shortwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
 370,rluscs,mon,W m-2,Surface Upwelling Clear-Sky Longwave Radiation,surface_upwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
 371,rluscs,day,W m-2,Surface Upwelling Clear-Sky Longwave Radiation,surface_upwelling_longwave_flux_in_air_assuming_clear_sky,area: time: mean,TIER2,,,,,,,,,,,,,,,0,0
