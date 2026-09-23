@@ -12,6 +12,7 @@ Go to the repository for individual analyses for specific code and discussion (s
 | Drought | https://github.com/WCRP-CORDEX/cca-droughts | yes |
 | Extreme precipitation | https://github.com/WCRP-CORDEX/cca-extreme-precipitation | yes |
 | Compound events | https://github.com/WCRP-CORDEX/cca-compound-events | yes |
+| Renewable energy | https://github.com/WCRP-CORDEX/cca-renewable-energy | yes |
 
 We are grateful to Sigma2 (https://www.sigma2.no) and the National Infrastructure for High-Performance Computing and Storage in Norway, which hosted the CORDEX data and provided analysis tools to work jointly on these publications.
 All publications should include the acknowledgement:
